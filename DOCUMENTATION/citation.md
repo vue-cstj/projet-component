@@ -2,9 +2,7 @@
 Une belle citation, ça fait toujours du bien. Ce component affiche une citation et son auteur. La citation change quand on clique dessus.
 
 ## Affichage
-Le component doit présenter l'image dans un élément `blockquote`. L'image doit être dans un élément `img`. L'image doit dans un lien qui mène à la page de l'annonceur.
-
-Il y a deux formats de publicité : 728x90 et 300x250. Vous choisissez le format que vous voulez. Vous pouvez également permettre au component parent de déterminer le format.
+Le component doit présenter l'image dans un élément `blockquote`. Le texte de la citation doit être dans un élément `p` et le nom de l'auteur dans un élément `div`. Le texte de la citation doit être centré horizontalement. Le nom de l'auteur doit être aligné à droite.
 
 ## Les props (ce qu'il reçoit)
 Le component peut recevoir à votre choix :
